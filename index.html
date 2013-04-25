@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>tic-tac-toe</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/tictac.css">
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/tictac.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="image-loader">
+            <img src="img/x.png">
+            <img src="img/o.png">
+            <img src="img/blank.png">
+        </div>
+
+        <div id="container">
+
+            <h1 id="player-turn-label"></h1>
+
+            <table id="field" border=1>
+            </table>
+
+        </div>
+
+        <div id="winner-modal" class="modal hide fade">
+            <div class="modal-body">
+                <h1 id="winner-label"></h1>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" id="play-again-button">Play again!</a>
+            </div>
+        </div>
+
+    </body>
+
+</html>
+
